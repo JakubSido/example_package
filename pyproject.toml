@@ -1,0 +1,23 @@
+[project]
+name = "example_package"
+version = "0.0.1"
+authors = [
+  { name="Pavel Novák", email="pavelnovak@pavelnovak.cz" },
+]
+description = "Ukázka distribuce pomocí balíčku"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.scripts]
+expac = "example_package.cli:main"
+
+
+[project.urls]
+Homepage = "https://github.com/JakubSido/example_package"
+Issues = "https://github.com/JakubSido/example_package/issues"
