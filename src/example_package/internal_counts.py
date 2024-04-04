@@ -1,3 +1,3 @@
-def add_two(number:int):
-    print(f"adding two to {number}")
-    return number + 2
+def add_one(number: int) -> int:
+    print(f"adding one to {number}")
+    return number + 1
