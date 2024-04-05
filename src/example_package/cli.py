@@ -11,8 +11,8 @@ class ProgArguments():
 
 def parse_args() -> ProgArguments:
     parser = argparse.ArgumentParser(
-                    prog='Example Package',
-                    description='Package description... can be loaded from README.md')
+        prog='Example Package',
+        description='Package description... can be loaded from README.md')
 
     parser.add_argument('--sum', nargs="+", help='sum all integers', type=int)
     parser.add_argument('--add_two', nargs="?", help='add two to a number', type=int)
