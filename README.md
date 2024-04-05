@@ -18,7 +18,7 @@ note: You can also use -e (editable)
 `pip install -e .`
 for installing in editable mode. It means that if you pull the repo the local installation will update too. And that is great for the continuous development of software. You can use the package from other projects and stay up to date. 
 
-Older Python than required leads to ERROR during installation. For example: 
+Older Python than required (declared in example_package\pyproject.toml) leads to ERROR during installation. For example: 
 `> ERROR: Package 'example-package' requires a different Python: 3.10.10 not in '>=3.12'`
 
 # Using the package from python codes
