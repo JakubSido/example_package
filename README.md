@@ -58,7 +58,7 @@ You can specify scripts to be accessible after the installation in 'pyproject.to
 expac = "example_package.cli:main"
 ```
 
-This leads to the command 'expac' being accessible from the command line. In this project, it is mapped to the function main() defined in module cli.py in our package. This is great, we can use our software easily from everywere :-) 
+This leads to the command 'expac' being accessible from the command line. In this project, it is mapped to the function main() defined in module cli.py in our package. This is great, we can use our software easily from everywhere :-) 
 
 If we run 'expac' without any parameters, it prints help.
 
